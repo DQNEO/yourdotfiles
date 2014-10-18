@@ -11,4 +11,4 @@ while(<>) {
     print "'$_',\n";
 }
 
-print "'dummy'\n];\n";
+print "];\n";
