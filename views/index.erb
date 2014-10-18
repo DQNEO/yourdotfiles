@@ -5,8 +5,6 @@
   <title>yourdotfiles gathers all your dotfiles</title>
   <link href="css/main.css" rel="stylesheet">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="js/names.js"></script>
-  <script src="js/main.js"></script>
 </head>
 <body>
   <div id="container">
@@ -16,6 +14,9 @@
 
     <div id="main">
       <ul>
+      <% @lines.each do |name| %>
+        <li><%= name %></li>
+      <% end %>
       </ul>
     </div>
 
