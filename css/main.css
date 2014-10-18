@@ -1,14 +1,12 @@
 body {
-    background: black;
-    color:#ddd;
+    color:#333;
 }
 
 #header {
 }
 
 a:visited , a {
-    color:#EEE;
-    font-weight:bold;
+    color:#222;
     text-decoration:none;
 }
 
