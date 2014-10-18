@@ -15,7 +15,9 @@
     <div id="main">
       <ul>
       <% @lines.each do |name| %>
-        <li><%= name %></li>
+        <li>
+          <a href="http://github.com/<%= name %>/dotfiles" target="_blank"><%= name %></a>
+        </li>
       <% end %>
       </ul>
     </div>
