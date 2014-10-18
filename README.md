@@ -2,6 +2,12 @@
 
 yourdotfiles gathers all your dotfiles.
 
+## How to run
+
+```
+$ bundle exec rackup
+```
+
 ## TODO
 
 * ブラウザでだらだら見てるだけで、最近の流行とか便利なtipsがわかるようにしたい。
