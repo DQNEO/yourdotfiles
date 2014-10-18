@@ -15,4 +15,6 @@ var names = [
 'xaicron',
 'n0ts',
 'Songmu',
+'fukayatsu',
+'sasaplus1',
 ];
