@@ -4,7 +4,8 @@ class App < Sinatra::Base
   get '/' do
     @year = 2014
     curdir = File.dirname(__FILE__)
-    @lines = File.read(curdir + '/db/list.txt').split(/\n/)
+    dbfile = curdir + '/db/list.txt'
+    @lines = File.read(dbfile).split(/\n/)
     erb :index
   end
 
