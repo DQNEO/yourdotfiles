@@ -10,4 +10,9 @@ var names = [
 'yuroyoro',
 'cho45',
 'DQNEO',
+'sotarok',
+'hansode',
+'xaicron',
+'n0ts',
+'Songmu',
 ];
