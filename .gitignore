@@ -1,0 +1,4 @@
+# ignore gem related files
+.bundle/
+Gemfile.lock
+vendor/
