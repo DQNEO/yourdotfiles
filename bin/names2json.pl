@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+# Usage
+# list2json.pl < list.txt > js/names.json
 use strict;
 use warnings;
 
