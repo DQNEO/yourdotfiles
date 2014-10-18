@@ -1,0 +1,22 @@
+body {
+    background: black;
+    color:#ddd;
+}
+
+#header {
+    border-bottom: 1px solid #ccc;
+}
+
+a:visited , a {
+    color:#EEE;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+#main ul {
+    list-style:none;
+}
